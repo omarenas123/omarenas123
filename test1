@@ -1,0 +1,6 @@
+import sys, shutil  # sys for version info, shutil to check if a command is on PATH
+
+print("Python version:", sys.version)  # show the interpreter version running this notebook
+print("Git available:", shutil.which("git") is not None)  # True if the git executable is found on PATH
+
+
